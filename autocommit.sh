@@ -2,6 +2,8 @@
 
 
 ### Changes
+# Feb 12, 2024
+#   added auto banch name
 # Sep 10, 2023 
 #  removed legacy token notes
 #  marked script with filemod +x
@@ -41,7 +43,7 @@ mainsail_folder=~/mainsail
 
 ### The branch of the repository that you want to save your config
 ### By default that is 'master'
-branch=master
+branch=$(git branch -vv | grep -Po  "^[\s\*]*\K[^\s]*(?=.*$(git branch -rl '*/HEAD' | grep -o '[^ ]\+$'))")
 
 #####################################################################
 #####################################################################
