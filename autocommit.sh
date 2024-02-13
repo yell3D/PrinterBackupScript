@@ -40,8 +40,8 @@ mainsail_folder=~/mainsail
 #fluidd_folder=~/fluidd
 
 ### The branch of the repository that you want to save your config
-### By default that is 'master', its now 'main' because you know slavery and such ..
-branch=main
+### By default that is 'master'
+branch=master
 
 #####################################################################
 #####################################################################
