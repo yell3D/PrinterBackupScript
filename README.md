@@ -11,7 +11,7 @@ Script to backup MainsailOS (and likely others) to github
 Login to your machine via ssh and run these commands:
 ```
 cd ~
-git clone https://github.com/Pockrandt/PrinterBackupScript.git
+git clone https://github.com/yell3D/PrinterBackupScript.git
 chmod +x PrinterBackupScript/autocommit.sh
 ```
 
@@ -22,7 +22,7 @@ Now, add this section to your moonraker.conf via GUI or CLI (nano ~/printer_data
 type: git_repo
 channel: dev
 path: ~/PrinterBackupScript
-origin: https://github.com/Pockrandt/PrinterBackupScript.git
+origin: https://github.com/yell3D/PrinterBackupScript.git
 is_system_service: False
 ```
 
